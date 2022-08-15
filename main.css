@@ -466,7 +466,7 @@ Recipes
 .tags-list a {
   text-transform: capitalize;
   display: block;
-  border: 2px solid var(--grey-700);
+  border: 2px solid var(--grey-400);
   padding: 2px;
   box-shadow: 2px 2px 13px var(--grey-400);
   background-color: var(--grey-100);
@@ -759,4 +759,16 @@ Recipe Template
   padding-bottom: 0.75rem;
   color: var(--primary-500);
   text-transform: capitalize;
+}
+::-webkit-scrollbar{
+  width: 15px;
+}
+::-webkit-scrollbar-track{
+  background-color: var(--grey-400);
+}
+::-webkit-scrollbar-thumb{
+  background-color: var(--primary-600);
+  background-clip: content-box;
+  border: 3px solid transparent;
+  border-radius: 15px ;
 }
