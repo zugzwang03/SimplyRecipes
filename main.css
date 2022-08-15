@@ -451,7 +451,6 @@ Recipes
 .tags-container {
   order: 1;
   display: flex;
-  border: 2px var(--grey-700);
   flex-direction: column;
   padding-bottom: 3rem;
   /* background: blue; */
@@ -462,18 +461,24 @@ Recipes
 }
 .tags-list {
   display: grid;
-  
   grid-template-columns: 1fr 1fr 1fr;
 }
 .tags-list a {
   text-transform: capitalize;
   display: block;
-  border: 2px var(--grey-700);
+  border: 2px solid var(--grey-700);
+  padding: 2px;
+  box-shadow: 2px 2px 13px var(--grey-400);
+  background-color: var(--grey-100);
+  /* border-top-right-radius: 5px; */
+  border-top-left-radius: 5px;
   color: var(--grey-500);
   transition: var(--transition);
 }
 .tags-list a:hover {
   color: var(--primary-500);
+  background-color: var(--primary-300);
+  color: var(--black);
 }
 .recipe {
   display: block;
