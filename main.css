@@ -473,7 +473,8 @@ Recipes
 }
 .recipe {
   display: block;
-  box-shadow: 2px 2px 13px ;
+  padding: 5px;
+  box-shadow: 2px 2px 13px var(--grey-700) ;
 }
 .recipe:hover{
   transform: scale(1.08);
