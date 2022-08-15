@@ -440,6 +440,7 @@ Recipes
 .recipes-container {
   display: grid;
   gap: 2rem 1rem;
+  border: 2px var(--grey-800);
 }
 
 .recipes-list {
@@ -450,6 +451,7 @@ Recipes
 .tags-container {
   order: 1;
   display: flex;
+  border: 2px var(--grey-700);
   flex-direction: column;
   padding-bottom: 3rem;
   /* background: blue; */
@@ -460,11 +462,13 @@ Recipes
 }
 .tags-list {
   display: grid;
+  
   grid-template-columns: 1fr 1fr 1fr;
 }
 .tags-list a {
   text-transform: capitalize;
   display: block;
+  border: 2px var(--grey-700);
   color: var(--grey-500);
   transition: var(--transition);
 }
@@ -617,6 +621,7 @@ Tags Page
 .tag {
   background: var(--grey-500);
   border-radius: var(--borderRadius);
+  box-shadow: 2px 2px 13px var(--grey-600);
   text-align: center;
   color: var(--white);
   transition: var(--transition);
@@ -624,6 +629,7 @@ Tags Page
 }
 .tag:hover {
   background: var(--primary-500);
+  transform: scale(1.09);
 }
 .tag h5,
 .tag p {
