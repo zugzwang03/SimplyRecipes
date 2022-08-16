@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tags</title>
+    <title>Recipe Template</title>
     <!-- favicon -->
     <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
     <!-- normalize -->
@@ -43,32 +43,24 @@
     </nav>
     <!-- end of nav -->
     <main class="page">
-      <section class="tags-wrapper">
-        <!-- single tag -->
-        <a href="chicken_tag.html" class="tag">
-          <h5>Chicken</h5>
-          <p>3 recipes</p>
-        </a>
-        <!-- end of single tag -->
-        <!-- single tag -->
-        <a href="breakfast_tag.html" class="tag">
-          <h5>Breakfast</h5>
-          <p>2 recipes</p>
-        </a>
-        <!-- end of single tag -->
-        <!-- single tag -->
-        <a href="carrot.html" class="tag">
-          <h5>Carrots</h5>
-          <p>1 recipe</p>
-        </a>
-        <!-- end of single tag -->
-        <!-- single tag -->
-        <a href="dinner_tag.html" class="tag">
-          <h5>Dinner</h5>
-          <p>2 recipe</p>
-        </a>
-        <!-- end of single tag -->
-      </section>
+      <div class="featured-recipes">
+        <h4>Carrots</h4>
+        <!-- recipes list -->
+        <div class="recipes-list">
+          <!-- single recipe -->
+          <a href="carrot.html" class="recipe">
+            <img
+              src="./assets/recipes/recipe-3.jpeg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Vegetable Soup</h5>
+            <p>Prep : 15min | Cook : 45min</p>
+          </a>
+          <!-- end of single recipe -->
+        </div>
+        <!-- end of recipe list -->
+      </div>
     </main>
     <!-- footer -->
     <footer class="page-footer">
